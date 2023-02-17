@@ -6,7 +6,7 @@
     - [ ] Searching for Users 
 - [ ] Codeigniter4
   - [ ] i18n
-- [ ] federation
+- [ ] Federation
   - [ ] Relay
 - [ ] Post
   - [ ] Privacy Settings
@@ -17,5 +17,9 @@
 ## Frontend
 - [ ] React
   - [ ] Browser polyfill
+- [ ] Theme
+  - [ ] 1. Twitter
+  - [ ] 2. TweetDeck
+  - [ ] 3. Forum
 
 It will be added continuously.
