@@ -1,9 +1,9 @@
 {
-    "name": "codeigniter4/appstarter",
+    "name": "elysiaroot/darak",
     "type": "project",
-    "description": "CodeIgniter4 starter app",
-    "homepage": "https://codeigniter.com",
-    "license": "MIT",
+    "description": "Darak(다락/多樂) is a social network service building tool compatible with mastodon.",
+    "homepage": "https://github.com/elysiaroot/Darak",
+    "license": "AGPL-3.0",
     "require": {
         "php": "^7.4 || ^8.0",
         "codeigniter4/framework": "^4.0"
@@ -32,8 +32,7 @@
         "test": "phpunit"
     },
     "support": {
-        "forum": "https://forum.codeigniter.com/",
-        "source": "https://github.com/codeigniter4/CodeIgniter4",
-        "slack": "https://codeigniterchat.slack.com"
+        "issues": "https://github.com/elysiaroot/Darak/issues",
+        "source": "https://github.com/elysiaroot/Darak"
     }
 }
