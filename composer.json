@@ -1,7 +1,7 @@
 {
     "name": "elysiaroot/darak",
     "type": "project",
-    "description": "Darak(다락/多樂) is a social network service building tool compatible with mastodon.",
+    "description": "Darak(다락/多樂) is a social network service building tool compatible with ActivityPub.",
     "homepage": "https://github.com/elysiaroot/Darak",
     "license": "AGPL-3.0",
     "require": {
