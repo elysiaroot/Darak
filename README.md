@@ -14,9 +14,7 @@ It has been built from the
 `composer create-project elysiaroot/darak` then `composer update` whenever
 there is a new release of the app.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+When updating, check the release notes to see if there are any changes you might need to apply.
 
 ## Setup
 
