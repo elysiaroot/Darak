@@ -5,7 +5,7 @@
     "homepage": "https://github.com/elysiaroot/Darak",
     "license": "AGPL-3.0",
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.1",
         "codeigniter4/framework": "^4.0"
     },
     "require-dev": {
