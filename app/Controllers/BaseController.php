@@ -55,4 +55,14 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+    protected function notFound()
+    {
+        $this->response->setStatusCode(404, 'Page Not Found');
+    }
+
+    protected function responseJSON(array|object $responseContent): string
+    {
+        $this->response->setContentType("application/json; charset=utf-8");
+        return json_encode($responseContent);
+    }
 }
