@@ -31,6 +31,19 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+
+
+/*
+ * --------------------------------------------------------------------
+ * .well-known
+ * --------------------------------------------------------------------
+ *
+ */
+$routes->group('.well-known', static function ($routes) {
+    $routes->get('host-meta', 'WellKnownController::HostMeta');
+    $routes->get('webfinger', 'WellKnownController::WebFinger');
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
